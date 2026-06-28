@@ -1,11 +1,11 @@
-import { View, Text } from "react-native";
+import { Image, View } from "react-native";
 import { styles } from "./style";
+import { loginBackground } from "@shared/assets/images";
 
 export const HomePage = () => {
   return (
     <View style={styles.container}>
-      {/* <Text>Home</Text> */}
-      {/* <Image source={require("/public/")} /> */}
+      <Image source={loginBackground} />
     </View>
   );
 };
