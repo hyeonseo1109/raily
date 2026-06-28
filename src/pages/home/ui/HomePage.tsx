@@ -5,7 +5,7 @@ import { loginBackground } from "@shared/assets/images";
 export const HomePage = () => {
   return (
     <View style={styles.container}>
-      <Image source={loginBackground} />
+      <Image source={loginBackground} style={styles.backgroundImage} />
     </View>
   );
 };
